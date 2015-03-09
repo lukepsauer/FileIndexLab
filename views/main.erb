@@ -1,0 +1,9 @@
+<div id="title">File List</div>
+<ul>
+  <% @currentFiles.each_with_index do |fileName, i| %>
+      <% if i != 0 && i != 1 %>
+      <div id="list"><a id="list" href='/files/<%= fileName %>'><%= fileName %></a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a id="list" href="/files/<%= fileName %>" download><img src="/images/images.png"></a></div>
+      <% end %>
+  <% end %>
+</ul>
+

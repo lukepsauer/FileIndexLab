@@ -1,0 +1,18 @@
+#title {
+    font-family: Impact;
+    font-size: 72px;
+    text-align: center;
+    color: aqua;
+    text-shadow: 5px 5px 5px dodgerblue;
+}
+
+body {
+    background-image: url("../images/lines_texture1095.jpg");
+}
+
+#list {
+    font-family: "Courier New", Courier, monospace;
+    color: white;
+    font-style: oblique;
+    text-shadow: 1px 1px 1px darkgray
+}
